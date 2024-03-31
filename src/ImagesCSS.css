@@ -1,0 +1,311 @@
+#atomIcon 
+{      
+    width: 250px;
+    height: 70px;
+}
+.header{
+    z-index: 1;
+    position: relative;
+}
+.nav-link
+{
+    font-family: 'Chakra Petch', sans-serif;
+    font-size: 30px;    
+    color: black;
+    margin: 5px;
+}
+.TopSide{
+    background-image: url('../public/images/hero3.jpg');
+     background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    clip-path: polygon(100% 0, 100% 100%, 39% 100%, 0 95%, 0 0);
+    width: 100%;
+    height:98%;
+}
+.hero
+{    
+    color: black;       
+    font-family: 'Chakra Petch', sans-serif;
+    align-self: center;
+
+}
+.hero h1
+{
+    color: rgba(33,81,124,255);
+    font-weight: bold ;
+    font-size: 90px;
+    text-shadow: 5px 5px 3px white;
+    text-align: center;   
+}
+.hero p
+{
+    padding: 10px; 
+    font-size: 25px;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    border: solid;
+    border-color: white;
+    border-radius: 3%;
+    text-shadow: 1px 1px 1px black;
+}
+.hero h2
+{
+    font-size: 50px;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    text-shadow: 5px 5px 5px black;
+}
+.blink-text 
+{
+    animation: blink 2.5s infinite;
+    margin-bottom: 40px;
+}
+.changetext
+{
+    color: yellow;
+    font-size: 50px;          
+}
+.btn
+{
+    margin-left: 10px;
+    font-size: 1.2rem;
+    border-radius: 20%;
+}
+.btn-primary:hover {    
+    background-color: purple;
+    border-color: black;
+  }
+@keyframes blink {
+            0% {
+                opacity: 0;
+            }
+            25% {
+                opacity: 1;
+                color: blue;
+            }            
+            50% {
+                opacity: 0;
+            }
+            75% {
+                opacity: 1;
+                color: red;
+            }
+            100%{
+                opacity: 0;
+            }
+}
+.background-curve {
+    position: relative;
+    height: 100%;
+    background:lightblue;   
+    border-radius: 0 0 100% 0;    
+    z-index: -1;
+}
+.row{
+    margin: 50px 10px 10px 10px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px 10px lightgray;
+}
+.card{
+    margin: 10px;
+    height: 100px;
+    width: 350px;
+    background-color: lightgray;
+    border-color: transparent;
+    /* box-shadow: 1px 1px 5px 5px rgba(56, 2, 250, 0.1);
+    text-align: center;
+    border-radius: 10px; */
+}
+.card-image{   
+   width: 75px;
+   height: 75px;
+   margin-top: -4%;
+}
+#FlipkartLogo{
+    width: 50px;
+   height: 40px;
+   margin-top: -3%;
+   margin-bottom: 2%;
+}
+.Star{
+    margin-top: 5px;
+    color: orange;
+    font-size:20px
+}
+.product-title{
+    font-family: 'Chakra Petch', sans-serif;
+    font-weight: 900;
+}
+.product-headers{
+    font-family: 'Chakra Petch', sans-serif;
+    font-weight: 500;
+    font-size: 30px;
+    text-decoration: underline ;
+    margin: 20px 20px 0px 20px;
+}
+.Product-card-body p{
+    margin: 10px 20px 10px 20px;
+}
+#image-container {
+    width: 350px;
+    height: 400px;
+    /* animation: image-change 5s infinite alternate ease-in-out; */
+  }
+
+  /* @keyframes image-change {
+    0% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+    }
+  } */
+.Product-card{
+    margin: 20px;
+    height: 680px;
+    width: 480px;
+    background-color: white;
+    box-shadow: 1px 1px 5px 5px rgba(56, 2, 250, 0.1);
+    text-align: center;
+    border-radius: 10px;
+}
+#productprice{
+    margin-right: 150px;
+    font-weight: 1000;
+}
+.overlay{
+    width: 40px;
+    position: absolute;
+    top: 50px;
+    left: 70px;
+    opacity: 0;
+    transition: opacity 0.5s;
+}
+ .Product-card:hover .overlay{
+opacity: 1;
+}
+.overlay img{
+    background-color: orange;
+    padding: 5px;
+    margin-bottom: 20px;
+    width: 40px;
+    height: 40px;
+    border-radius: 30%;
+}
+.Site-Services{
+background-color: lightblue;
+height: 450px;
+width: 100%;
+margin-top: 70px;
+border-radius: 30px;
+}
+.Site-Services h1{
+text-align: center;
+font-family: 'Chakra Petch', sans-serif;
+font-weight: 600;
+font-size: 50px;
+padding-top: 20px;
+border-bottom: 3px gray solid;
+}
+.Site-body{
+margin-left: 10px;
+margin-right: 20px;
+margin-top: 40px;
+width: 100%;
+display: flex;
+flex-wrap: wrap;
+}
+.Services-items{
+    border-right: 2px black solid;
+}
+.Booking-img{
+    width: 100%;
+    height: 90%;
+    margin: 30px 30px 30px 0;
+    border-radius: 10%;
+    box-shadow: 5px 5px 10px gray;
+}
+.Booking-Right{
+    margin-top: 40px;
+}
+#para h2{
+    font-weight: 500;
+    font-size: 40px;
+    text-align: center;
+    text-shadow: 3px 2px 4px gray;
+    text-decoration: underline;
+    font-family: 'Dancing Script', cursive;
+}
+#para p{
+    text-align: justify;
+    line-height: 25px;
+}
+#arow{
+    align-items: center;
+}
+.Image-gallery{
+    display: flex;
+    height: 1000px;
+}
+.Image-gallery-1{
+    display: flex;
+}
+.img-gal-div1{
+    width: 50%;
+    height: 1000px;
+}
+.img-gal-div2{
+    width: 50%;
+    height: 100%;
+    align-items: center;
+}
+.img_1{
+    width: 33%;
+    height: 323px;
+    margin: 5px;
+    text-align: center;
+    overflow: hidden;
+}
+.img_1 img {
+    transition: transform 0.3s ease-in-out, filter 0.3s ease-in-out;
+}
+
+.img_1:hover img {
+    transform: scale(1.2); /* Zoom effect */
+    filter: hue-rotate(180deg);
+}
+#slide-item{
+    color: black;
+}
+#gallery-img{
+    width: 100%;
+    object-fit: cover;
+    height:100%;
+}
+.img_9{
+    overflow: hidden;
+    height: 1000px;
+}
+.sideing{
+    object-fit: cover;
+}
+#rating{
+margin-top: 50px;
+background-color: lightblue;
+text-align: center;
+}
+#rating h1{
+    font-weight: 500;
+    font-size: 40px;
+    text-align: center;
+    text-shadow: 3px 2px 4px gray;
+    font-family: 'Dancing Script', cursive;
+}
+#copyright{
+    color: black;
+    font-size:large;
+    font-weight: 500;
+}
